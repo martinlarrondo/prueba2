@@ -11,14 +11,18 @@ function validar(){
     let fNombre = validarlargominmo(eNombre,errorNombre,vNombre)
     let fEdad  =validarlargominmo(eEdad,errorEdad,vEdad)
     if(fNombre == "exito" && fEdad == "exito"){
-        let p{
-            vNombre:nombre
-            vEdad: edad
-        }
-        
+        let p={
+            eNombre:"nombre",
+            eEdad :"edad"
+        }        
+        personas.push(p)
+        cargardatos(p)
+        return p
     }
 
 
 }
-function cargardatos(){}
+function cargardatos(){
+
+}
 
