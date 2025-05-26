@@ -16,7 +16,6 @@ function validar(){
             eEdad :"edad"
         }        
         personas.push(p)
-        cargardatos(p)
         return p
     }
 
@@ -24,5 +23,15 @@ function validar(){
 }
 function cargardatos(){
 
+
+
+}
+
+function actualizar(){
+
+}
+
+function eliminar(){
+    
 }
 
