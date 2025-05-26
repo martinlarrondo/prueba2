@@ -20,6 +20,5 @@ function validar(){
 
 
 }
-function cargardatos(){
+function cargardatos(){}
 
-}
